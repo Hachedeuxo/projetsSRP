@@ -1,0 +1,178 @@
+.message_to_user {
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carte_menu {
+  border-collapse: collapse;
+  border: 0.1em solid black;
+}
+
+.carte_menu caption {
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.carte_menu th, .carte_menu td {
+  border: 0.26em solid #ce2b37;
+  border-radius: 1em;
+  text-align: center;
+  width: 8em;
+  height: 1.6em;
+  font-size: 1.4em;
+}
+
+#carte_pates {
+  margin-left: 2em;
+  background-color: #FFFFFF;
+}
+
+#carte_sauces {
+  margin-left: 20em;
+  background-color: #ce2b37;
+}
+
+#carte_boissons {
+  margin-left: 28em;
+  background-color: #009246;
+}
+
+#carte_desserts {
+  margin-left: 36em;
+  background-color: #FFFFFF;
+}
+
+  /* couleurs des bordures de chaque carte */
+#carte_pates th, #carte_pates td {
+  border: 0.26em solid #009246;
+  color: #ce2b37;
+}
+#carte_sauces th, #carte_sauces td {
+  border: 0.26em solid #FFFFFF;
+  color: #000000;
+  /* noir plus visible sur le rouge */
+}
+#carte_boissons th, #carte_boissons td {
+  border: 0.26em solid #ce2b37;
+  color: #FFFFFF;
+}
+#carte_desserts th, #carte_desserts td {
+  border: 0.26em solid #009246;
+  color: #ce2b37;
+}
+
+/* mise en forme du formulaire de connexion */
+#form_connect {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Lucida;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#form_inscription div {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+  text-align: center;
+}
+
+#form_commande {
+  background-image: url('../pictures/parchemin.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  width: 40%;
+  height: 40%;
+
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 22em;
+
+  padding-bottom: 14em;
+  padding-left: 8em;
+  padding-top: 10em;
+  padding-right: 2em;
+}
+
+#form_commande div{
+  margin-top: 1em;
+}
+
+#nav {
+  /* annulation des mafges par défaut de la liste */
+	padding: 0; margin: 0;
+  /* alignement du texte du menu */
+  text-align: center;
+}
+
+#nav li {
+  /* on met les éléments de la liste(menu) à l'horizontal */
+	display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+}
+
+#nav a {
+  padding:1em;
+  margin: 0 4em;
+  display: inline-block;
+  text-decoration: none;
+  color: green;
+  background-color: white;
+  border-radius: 2em;
+  font-size: 1.6em;
+
+  /* effet retour rotatif dans le menu */
+  -webkit-transition: .3s ease-in-out !important;
+  transition: .3s ease-in-out !important;
+}
+
+#nav a:hover {
+  /* effet de transition couleur au survol du menu */
+  background-image: linear-gradient(to right, #009246, #FFFFFF, #ce2b37);
+  font-style: italic;
+  /* rotation du lien dans le menu */
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* image mise en background */
+  background: url('../pictures/pasta_background.png') no-repeat fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+h1, h2 {
+  font-style: italic;
+  border: 0.5em solid green;
+  border-radius: 2em;
+  padding: 0.2em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  /* background dégradé aux couleurs de l'Italie */
+  background-image: linear-gradient(to right, #009246, #FFFFFF, #ce2b37);
+}
+
+h2 {
+  font-size: 1.6em;
+  width: 8em;
+  height: 1.2em;
+  /* background dégradé aux couleurs de l'Italie */
+  background-image: linear-gradient(to right, #009246, #FFFFFF, #ce2b37);
+}
+
+p {
+  font-size: 1.6em;
+  font-style: italic;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Commande</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>A la bonne Frankette</h1>
+
+    <ul id="nav"><!--
+  --><li><a href="accueil.html">Accueil</a></li><!--
+  --><li><a href="menu.html">Menu</a></li><!--
+  --><li><a href="commande.html">Commander</a></li><!--
+  --><li><a href="#">À propos</a></li><!--
+  --><li><a href="#">Contact</a></li>
+    </ul>
+
+    <h2>Commande</h2>
+
+    <p>Composez votre menu:</p>
+    <form id="form_commande" action="validation_commande.html" method="post">
+      <div>
+        <label>Choix des Pâtes</label>
+        <div>
+          <label for="spaghettis">Spaghettis</label>
+          <input type="radio" name="pates" id="spaghettis" />&nbsp
+          <label for="pennes">Pennes</label>
+          <input type="radio" name="pates" id="pennes" />&nbsp
+          <label for="tortellini">Tortellini</label>
+          <input type="radio" name="pates" id="tortellini" />&nbsp
+          <label for="macaroni">Macaroni</label>
+          <input type="radio" name="pates" id="macaroni" />
+        </div>
+      </div>
+      <div>
+        <label>Choix de la sauce</label>
+        <label>Sauce:</label>
+        <select name="select_sauce">
+          <option value="saumon">Saumon - 8.00€</option>
+          <option value="carbonnara">Carbonnara - 7.00€</option>
+          <option value="bolognaise">bolognaise - 6.50€</option>
+          <option value="pesto_rouge">Pesto rouge et poulet - 9.00€</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Quelle boisson désiez-vous ?</label>
+        <select id="select_boisson "name="select_boisson">
+          <option value="biere">Bière - 5.00€</option>
+          <option value="coca_cola" selected>Coca Cola - 2.00€</option>
+          <option value="eau">Eau - 1.25€</option>
+          <option value="jus_orange">Jus d'orange - 1.50€</option>
+        </select>
+      </div>
+      <div>
+        <label>Un dessert peut-être ?</label>
+        <div>
+          <label for="yaourt_nature">Yaourt nature - 3.00€</label>
+          <input type="checkbox" name="yaourt_nature" id="yaourt_nature" />
+          <label for="fromage_blanc">Fromage Blanc - 2.50€</label>
+          <input type="checkbox" name="fromage_blanc" id="fromage_blanc" /><br />
+          <label for="tarte_aux_pommes">Tarte aux pommes - 4.00€</label>
+          <input type="checkbox" name="tarte_aux_pommes" id="tarte_aux_pommes" />
+          <label for="cafe_gourmand">Café gourmand - 5.00€</label>
+          <input type="checkbox" name="cafe_gourmand" id="cafe_gourmand" />
+        </div>
+      </div>
+
+      <div>
+        <label>Où voulez-vous manger ?</label>
+        <div>
+          <label for="sur_place">Sur place</label>
+          <input type="radio" name="mode" id="sur_place" value="sur_place"/>
+          <label for="a_emporter">A emporter</label>
+          <input type="radio" name="mode" id="a_emporter"value="a_emporter" />
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="passer la commande" />
+      </div>
+    </form>
+  </div>
+  </body>
+</html>

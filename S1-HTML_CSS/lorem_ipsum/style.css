@@ -1,0 +1,20 @@
+h1 {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+ul {
+   list-style-type: none;
+}
+ul li:before {
+   content: '- ';
+}
+
+.decal_droite {
+  margin-left: 6%;
+}
+
+.decal_droite_plus {
+  margin-left: 7%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>A la bonne Frankette</h1>
+
+    <ul id="nav"><!--
+  --><li><a href="accueil.html">Accueil</a></li><!--
+  --><li><a href="menu.html">Menu</a></li><!--
+  --><li><a href="commande.html">Commander</a></li><!--
+  --><li><a href="#">À propos</a></li><!--
+  --><li><a href="#">Contact</a></li>
+    </ul>
+
+    <h2>Inscription</h2>
+
+    <form id="form_inscription" action="validation_inscription.html" method="post">
+      <div>
+        <label for="user_firstname">Prénom:</label>
+        <input type="text" name="user_firstname">
+      </div>
+      <div>
+        <label for="user_lastname">Nom:</label>
+        <input type="text" name="user_lastname">
+      </div>
+      <div>
+        <label for="user_city">Ville:</label>
+        <input type="text" name="user_city">
+      </div>
+      <div>
+        <label for="user_street">Rue :</label>
+        <input type="text" name="user_street">
+      </div>
+      <div>
+        <label for="user_nickname">Pseudo:</label>
+        <input type="text" name="user_nickname" placeholder="entrez votre pseudo">
+      </div>
+      <div>
+        <label for="user_password">Mot de passe:</label>
+        <input type="password" name="user_password" placeholder="mot de passe">
+      </div>
+      <div>
+        <label for="user_password_confirm">Confirmation;</label>
+        <input type="password" name="user_password_confirm" placeholder="mot de passe">
+      </div>
+      <div>
+        <input type="submit" value="créer le compte"/>
+      </div>
+    </form>
+  </body>
+</html>

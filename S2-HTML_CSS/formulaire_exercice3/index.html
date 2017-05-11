@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire exercice3</title>
+    <link rel="stylesheet" href="formulaire_exercice2.css">
+  </head>
+  <body>
+
+    <form action="traitement.php" method="post">
+      <div>
+        <label for="user_nickname">Name</label>
+        <input type="text" name="user_nickname" id="user_nickname">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="password" name="email" id="email" palceholder="exemple@domain.xxx">
+      </div>
+      <div>
+        <label for="user_age">Age</label>
+        <input type="number" name="user_age" id="user_age">
+      </div>
+      <div>
+        <label>message</label>
+        <textarea></textarea>
+      </div>
+      <div>
+        <label>Choisissez une ou plusisieurs langues:</label>
+      </div>
+      <div>
+        <label>Anglais</label>
+        <input type="checkbox" name="langue" id="anglais" value="anglais">
+      </div>
+      <div>
+        <label>Espagnol</label>
+        <input type="checkbox" name="langue" id="espagnol" value="espagnol">
+      </div>
+      <div>
+        <label>Italien</label>
+        <input type="checkbox" name="langue" id="italien" value="italien">
+      </div>
+      <label>Choisissez votre niveau :</label>
+      <div>
+        <label for="debutant">Debutant</label>
+        <input type="radio" name="niveau" value="debutant" id="debutant">
+      </div>
+      <div>
+        <label for="bon">bon</label>
+        <input type="radio" name="niveau" value="bon" id="bon">
+      </div>
+      <div>
+        <label for="confirme">Confirmé</label>
+        <input type="radio" name="niveau" value="confirme" id="confirme">
+      </div>
+      <input type="submit" name="submit_form" value="submit the form">
+    </form>
+
+  </body>
+</html>

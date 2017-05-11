@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire exercice2</title>
+    <link rel="stylesheet" href="formulaire_exercice2.css">
+  </head>
+  <body>
+
+    <form action="traitement.php" method="post">
+      <div>
+        <label for="user_nickname">Nickname</label>
+        <input type="text" name="user_nickname" id="user_nickname" autofocus required>
+      </div>
+      <div>
+        <label for="user_password">Mot de passe</label>
+        <input type="password" name="user_password" id="user_password" required maxlength="20">
+      </div>
+      <div>
+        <label for="user_age">Age</label>
+        <input type="number" name="user_age" id="user_age" min="18" max="40">
+      </div>
+      <div>
+        <label>Qualités</label>
+        <select>
+          <option value="serieux">sérieux</option>
+          <option value="ponctuel">ponctuel</option>
+          <option value="jovial">jovial</option>
+          <option value="rigoureux">rigoureux</option>
+          <option value="drole">drole</option>
+        </select>
+      </div>
+      <label>Travail à la maison</label>
+      <div>
+        <label for="y">Oui</label>
+        <input type="radio" name="travail" value="y" id="y">
+      </div>
+      <div>
+        <label for="n">Non</label>
+        <input type="radio" name="travail" value="n" id="n">
+      </div>
+      <textarea placeholder="Tapez votre message"></textarea>
+      <input type="submit" name="submit_form" value="submit the form">
+    </form>
+
+  </body>
+</html>

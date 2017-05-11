@@ -1,0 +1,103 @@
+
+body {
+  background-image : url('../images/fond.jpg');
+  color: white;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: Brush Script Std, Brush Script MT, cursive;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: Jazz LET, fantasy;
+}
+
+p {
+  font-size: 22px;
+  font-family: Chalkduster, fantasy;
+  width:50%;
+  background-color: gray;
+  text-align: center;
+  border: white dashed 2px;
+}
+
+li {
+  margin-left: 10%;
+}
+
+div {
+  background-color: red;
+  display: block;
+}
+
+.violet {
+       color: violet;
+       font-weight: bold;
+}
+
+#guitare {
+  width:40%;
+  height:40%;
+  margin-left: 20%;
+}
+
+#guitare:hover {
+  /* rotation au passage de la souris */
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* Selection de l'image dans la balise de l'id 'moto' */
+#moto {
+   width:20%;
+   height:20%;
+}
+
+#moto_gif{
+  /* gif animé moto */
+  width:70%;
+  height:70%;
+  /* transparence */
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* Pour IE8 et les versions précédentes */
+}
+
+
+#muscu {
+  width:360px;
+  height:220px;
+  -webkit-transition: .5s ease-in-out !important;
+  transition: .5s ease-in-out !important;
+}
+
+#muscu:hover {
+  /* arrondissement des bords de l'image au passage de la souris*/
+  border-radius: 50%;
+
+}
+#diete{
+  width:360px;
+  height:220px;
+  -webkit-transition: .5s ease-in-out !important;
+  transition: .5s ease-in-out !important;
+}
+
+#diete:hover {
+  border-radius: 50%;
+}
+
+#sommeil{
+  width:360px;
+  height:220px;
+  -webkit-transition: .5s ease-in-out !important;
+  transition: .5s ease-in-out !important;
+}
+
+#sommeil:hover {
+  border-radius: 50%;
+}

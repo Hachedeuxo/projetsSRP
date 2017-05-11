@@ -1,0 +1,20 @@
+/* placement du formulaire */
+form{
+  margin-top: 100px;
+  margin-left: 100px;
+  padding-right: 800px;
+}
+
+/* couleur des champs obligatoires */
+.obligatoire {
+  border: 1px solid red;
+}
+
+/* couleur des messages d'obligation */
+.message_obligation {
+  color:red;
+}
+
+.color {
+  background-color: red;
+}
