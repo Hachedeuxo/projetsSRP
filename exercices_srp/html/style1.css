@@ -1,8 +1,0 @@
-@font-face {
-   font-family: 'Avenir';
-        url('police/AvenirLTStd-Book') format('otf'),
-}
-
-p {
-   font-family: Avenir;
-}
